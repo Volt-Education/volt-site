@@ -1,9 +1,9 @@
 <!--HEADER-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/bootstrap.min.css">
-    <link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/style.css">
-	<link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/all.css" >
+	<link rel="stylesheet" href="wp-content/themes/volt_theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="wp-content/themes/volt_theme/css/style.css">
+	<link rel="stylesheet" href="wp-content/themes/volt_theme/css/all.css" >
 
 </head>
 <body>
@@ -52,7 +52,7 @@
 					  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 					      <div class="modal-header">
-					      	<img class="modal-title" src="wp-content/themes/volt-site-theme/img/logo_reg.png" alt="logo">
+					      	<img class="modal-title" src="wp-content/themes/volt_theme/img/logo_reg.png" alt="logo">
 					      </div>
 
 					      <div class="modal-body">		
@@ -184,7 +184,7 @@
 		<hr></hr>
 
 		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand" href="#"><img src="wp-content/themes/volt-site-theme/img/logo.png" align="top"> </a>
+		  <a class="navbar-brand" href="#"><img src="wp-content/themes/volt_theme/img/logo.png" align="top"> </a>
 	 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	   		 <span class="navbar-toggler-icon"></span>
 	 		 </button>
