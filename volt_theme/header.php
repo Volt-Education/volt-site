@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<link rel="icon" type="image/x-icon" href="wp-content/themes/volt_theme/img/favicon.ico" />
-
-	<meta charset="utf-8">
+<!--HEADER-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/style.css">
+	<link rel="stylesheet" href="wp-content/themes/volt-site-theme/css/all.css" >
 
-	<title>VOLT education | ГЛАВНАЯ | </title>
-
-	<link rel="stylesheet" href="wp-content/themes/volt_theme/css/bootstrap.min.css">
-    <link rel="stylesheet" href="wp-content/themes/volt_theme/css/style.css">
-	<link rel="stylesheet" href="wp-content/themes/volt_theme/css/all.css" >
 </head>
 <body>
 <div class="wrapper">
+
+
 <header>
-	<!--HEADER-->
+	
 	<div class="container">
 		<div class="row">                    
 			<div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3" align="right">
@@ -49,7 +43,6 @@
 				<div class="cool-12 col-xl-5" align="middle"> <h4 class="text-muted">VOLT EDUCATION</h2>        </div>
 			</div>
 		</div>
-
 			<div class="col-4 col-md-2 col-lg-2 col-xl-2" align="left">
 				<div  class="vline-l">
 				<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#enter">ВОЙТИ </button>
@@ -59,11 +52,10 @@
 					  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 					      <div class="modal-header">
-					      	<img class="modal-title" src="wp-content/themes/volt_theme/img/logo_reg.png" alt="logo">
+					      	<img class="modal-title" src="wp-content/themes/volt-site-theme/img/logo_reg.png" alt="logo">
 					      </div>
 
 					      <div class="modal-body">		
-
 							<ul class="nav nav-pills mb-3"  id="pills-tab" role="tablist">
 							  <li class="nav-item">
 							    <a class="nav-link active" id="pills-enter-tab" data-toggle="pill" href="#pills-enter" role="tab" aria-controls="pills-enter" aria-selected="true">ВХОД </a>
@@ -190,8 +182,9 @@
 
 	<div class="container">
 		<hr></hr>
+
 		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand" href="#"><img src="wp-content/themes/volt_theme/img/logo.png" align="top"> </a>
+		  <a class="navbar-brand" href="#"><img src="wp-content/themes/volt-site-theme/img/logo.png" align="top"> </a>
 	 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	   		 <span class="navbar-toggler-icon"></span>
 	 		 </button>
@@ -250,7 +243,7 @@
 			    </li>
 	  		</div>
 		</nav>
-
 		<hr align="middle" size="2px" color="#f7f7f7" />
 	</div>
+
 </header>

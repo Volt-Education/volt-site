@@ -1,7 +1,7 @@
 <!--FOOTER-->
 <footer>
-	<div class="container">
 
+	<div class="container">
 		<hr align="middle" size="4px" color="#f7f7f7" />
 		<div class="row">                                    
 		    <div class="d-none d-sm-block col-md-4 col-lg-3 col-xl-2">
@@ -66,7 +66,8 @@
 		<h6 class="text-muted"><i class="mb-0">powered by VOLT EDUCATION © | 2018 </i></h6>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="wp-content/themes/volt_theme/js/bootstrap.min.js"></script>
+	<script src="wp-content/themes/volt-site-theme/js/bootstrap.min.js"></script>
+
 </footer>  
 </div>
 </body>
