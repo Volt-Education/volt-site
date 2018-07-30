@@ -5,6 +5,11 @@
  * Description: Какая-то полезная инфа для тех, кто захочет юзнуть. 
  */
 
+.lineStyle{
+	size: 2px;
+	color: #f7f7f7;
+}
+
 .dropdown-item:hover {
 	background-color: #fafafa;
 }

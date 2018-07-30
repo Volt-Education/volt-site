@@ -8,30 +8,30 @@
 				<div class="hoverBack">
 					<h5>ЧТО ПОЧИТАТЬ?</h5>
 					<h4></h4>
-					<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Блог</h6>	       </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Расписание</h6>     </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Условия работы</h6> </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Акции</h6>		   </a>
+					<a class="ULH" href="http://localhost/wordpress/blog"> <h6 class="text-muted">&nbsp;Блог</h6>	                     </a>
+			    	<a class="ULH" href="http://localhost/wordpress/education/schedule/"> <h6 class="text-muted">&nbsp;Расписание</h6>   </a>
+			    	<a class="ULH" href="http://localhost/wordpress/index/work_specs/"> <h6 class="text-muted">&nbsp;Условия работы</h6> </a>
+			    	<a class="ULH" href="http://localhost/wordpress/education/promotions/"> <h6 class="text-muted">&nbsp;Акции</h6>		 </a>
 		    	</div>
 		    </div>
 		    <div class="d-none d-sm-block col-md-4 col-lg-3 col-xl-2">
 		    	<div class="hoverBack">
 					<h5>КОМПАНИЯ</h5>
 					<h4></h4>
-					<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;О нас</h6>	 </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Вакансии</h6> </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Партнеры</h6> </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Команда</h6>  </a>
+					<a class="ULH" href="http://localhost/wordpress/about_us/about_company/"> <h6 class="text-muted">&nbsp;О нас</h6>	     </a>
+			    	<a class="ULH" href="http://localhost/wordpress/education/vacant_positions/"> <h6 class="text-muted">&nbsp;Вакансии</h6> </a>
+			    	<a class="ULH" href="http://localhost/wordpress/about_us/partners/"> <h6 class="text-muted">&nbsp;Партнеры</h6>          </a>
+			    	<a class="ULH" href="http://localhost/wordpress/about_us/team/"> <h6 class="text-muted">&nbsp;Команда</h6>               </a>
 		    	</div>
 		    </div>
 		    <div class="d-none d-sm-block col-md-4 col-lg-3 col-xl-2">
 		    	<div class="hoverBack">
 					<h5>ВСЯКОЕ</h5>
 					<h4></h4>
-					<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Магазин</h6>   </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Контакты</h6>  </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Галерея</h6>   </a>
-			    	<a class="ULH" href="1.html"> <h6 class="text-muted">&nbsp;Поддержка</h6> </a>
+					<a class="ULH" href="http://localhost/wordpress/shop/kits/"> <h6 class="text-muted">&nbsp;Магазин</h6>        </a>
+			    	<a class="ULH" href="http://localhost/wordpress/contacts/"> <h6 class="text-muted">&nbsp;Контакты</h6>        </a>
+			    	<a class="ULH" href="http://localhost/wordpress/about_us/gallery/"> <h6 class="text-muted">&nbsp;Галерея</h6> </a>
+			    	<a class="ULH" href="http://localhost/wordpress/support"> <h6 class="text-muted">&nbsp;Поддержка</h6>         </a>
 		    	</div>
 		    </div>
 		    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-6">
@@ -66,8 +66,7 @@
 		<h6 class="text-muted"><i class="mb-0">powered by VOLT EDUCATION © | 2018 </i></h6>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="wp-content/themes/volt_theme/js/bootstrap.min.js"></script>
-
+	<script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
 </footer>  
 </div>
 </body>

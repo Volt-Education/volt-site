@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
 	<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/img/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>ГЛАВНАЯ | VOLT education | </title>
+	<title>НАБОРЫ | VOLT education | </title>
 
 
 
@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="row">                    
 			<div class="col">
-				<img src="<?php bloginfo('template_directory') ?>/img/content.png" alt="content" align="middle" class="img-fluid">
+				<h1>НАБОРЫ</h1>
 			</div>                                                         
 		</div>
 	</div>
@@ -35,3 +35,27 @@
 
 
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
