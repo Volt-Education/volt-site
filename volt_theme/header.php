@@ -1,11 +1,24 @@
 <!--HEADER-->
+<!DOCTYPE html>
+<html <?php language_attributes(); ?> class="no-js">
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<!--[if lt IE 9]>
+	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
+	<![endif]-->
+	<?php wp_head(); ?>
+
+
+    <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/img/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="utf-8">
+
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/style.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/all.css" >
-
-
 
 	<script type="text/javascript">
 	function wp_attempt_focus(){
@@ -27,7 +40,7 @@
 	</script>
 
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div class="wrapper">
 
 
@@ -121,18 +134,10 @@
 										<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Запомнить меня</label></p>
 									</div>
 								    <div class="col-6 col-md-4" align="right">
-								    	<p class="submit">
-											<button type="submit" name="wp-submit" id="wp-submit" class="btn btn-warning mb-2">ВОЙТИ</button>
-								      		<input type="hidden" name="redirect_to" value="http://localhost/wordpress/" />
-											<input type="hidden" name="testcookie" value="1">
-								    	</p>
+										<button type="submit" name="wp-submit" id="wp-submit" class="btn btn-warning mb-2">ВОЙТИ</button>
+								      	<input type="hidden" name="redirect_to" value="http://localhost/wordpress/" />
+										<input type="hidden" name="testcookie" value="1">
 								    </div>
-					      			<div class="col-4 col-md-6" align="left"> <h6 align="left" class="text-muted">Войти через:</h6>	</div>	
-									<div class="col-8 col-md-6" align="middle">
-										<i class="fab fa-google"></i>
-										<i class="fab fa-facebook1-f"></i> 
-										<i class="fab fa-vk1"></i>	
-									</div>
 								  </div>
 								</form>
 								</div>
@@ -182,12 +187,6 @@
 					    </div>
 					  </div>
 					</div>
-
-
-
-
-
-
 				</div>
 			</div>
 		</div>

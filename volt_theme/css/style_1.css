@@ -1,0 +1,215 @@
+.lineStyle{
+	size: 2px;
+	color: #f7f7f7;
+}
+
+
+.dropdown-item:hover {
+	background-color: #fafafa;
+}
+.dropdown-item:active {
+	background-color: #ffcc00;
+}
+.nav-link:hover {
+	background-color: #fafafa;
+	font-color: #000000;
+}
+.nav-link:active {
+	background-color: #ffcc00;
+	font-color: #ffffff;
+}
+
+.nav-link {
+	color: #000000;
+}
+
+.backOrange:last-child {
+	background-color: #ffcc00;
+}
+
+.fade {
+  opacity: 0;
+}
+ 
+.fade:hover {
+  opacity: 1;
+}
+
+
+
+.vline-r{
+	border-right: 1px solid #f1f1f1; /* Линия справа от текста */
+    padding: 0 10px;  /* Расстояние между линией и текстом */
+}
+
+.vline-l{
+	border-left: 1px solid #f1f1f1; /* Линия справа от текста */
+    padding: 0 10px;  /* Расстояние между линией и текстом */
+}
+
+
+.notUL { /* у ссылки не будет подчеркивания */ 
+	text-decoration: none;
+}  
+.ULH:hover {  /* у ссылки не будет подчеркивания по навееднию */ 
+	text-decoration: none; 
+}  
+
+.hoverBack {  /*выделяем колонку*/
+	background: #ffffff;
+	transition: 1s;
+}
+.hoverBack:hover{
+	background: #ffcc00;
+	transition: 1s;
+}
+
+.greyBack {  /*выделяем колонку*/
+	background: #f7f7f7;
+}
+
+.fa-facebook-f::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-facebook-f:hover::before {
+	color: #ffcc00;
+}
+
+.fa-vk::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-vk:hover::before {
+	color: #ffcc00;
+	 
+}
+
+.fa-instagram::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-instagram:hover::before {
+	color: #ffcc00;
+	 
+}
+
+.fa-pinterest-p::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-pinterest-p:hover::before {
+	color: #ffcc00;	 
+}
+
+.fa-youtube::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-youtube:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-twitter::before {
+	content: '';
+	font-size: 72px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-twitter:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-facebook1-f::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-facebook1-f:hover::before {
+	color: #ffcc00;
+}
+
+.fa-vk1::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-vk1:hover::before {
+	color: #ffcc00;
+	 
+}
+
+.fa-instagram1::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-instagram1:hover::before {
+	color: #ffcc00;
+	 
+}
+
+.fa-pinterest1-p::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-pinterest1-p:hover::before {
+	color: #ffcc00;	 
+}
+
+.fa-youtube1::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-youtube1:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-twitter1::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-twitter1:hover::before {
+	color: #ffcc00; 
+}
+.fa-google::before {
+	content: '';
+	font-size: 38px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-google:hover::before {
+	color: #ffcc00; 
+}

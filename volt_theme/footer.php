@@ -1,5 +1,5 @@
 <!--FOOTER-->
-<footer>
+<footer id="colophon" class="site-footer" role="contentinfo">
 
 	<div class="container">
 		<hr align="middle" size="4px" color="#f7f7f7" />
@@ -69,5 +69,6 @@
 	<script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
 </footer>  
 </div>
+<?php wp_footer(); ?>
 </body>
 </html>

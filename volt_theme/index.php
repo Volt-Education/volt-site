@@ -1,37 +1,59 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-	<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/img/favicon.ico" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>ГЛАВНАЯ | VOLT education | </title>
+        <?php get_header(); ?>
 
 
+    <main>
 
-<?php get_header(); ?>
+        <!--CONTENT-->
+        <content>
+                <?php if (is_active_sidebar('header-content')) : ?>
+                    <?php dynamic_sidebar('header-content'); ?>
+                <?php endif; ?>
 
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
 
-<main>
+                        <?php if (have_posts()) : ?>
 
+                            <?php if (is_home() && !is_front_page()) : ?>
+                                <header>
+                                    <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+                                </header>
+                            <?php endif; ?>
 
+                            <?php
+                            // Start the loop.
+                            while (have_posts()) : the_post();
 
-<!--CONTENT-->
-<content>
+                                get_template_part('content', get_post_format());
 
-	<div class="container">
-		<div class="row">                    
-			<div class="col">
-				<img src="<?php bloginfo('template_directory') ?>/img/content.png" alt="content" align="middle" class="img-fluid">
-			</div>                                                         
-		</div>
-	</div>
+                            // End the loop.
+                            endwhile;
 
-</content>
+                            // Previous/next page navigation.
+                            the_posts_pagination(array(
+                                'prev_text' => __('Previous page', 'volt_theme'),
+                                'next_text' => __('Next page', 'volt_theme'),
+                                'before_page_number' => '<span class="meta-nav screen-reader-text">' . __('Page', 'volt_theme') . ' </span>',
+                            ));
 
+                        // If no content, include the "No posts found" template.
+                        else :
+                            get_template_part('content', 'none');
 
+                        endif;
+                        ?>
 
+                    </main><!-- .site-main -->
+                </div><!-- .content-area -->
+				<hr class="lineStyle" align="middle"/>
+                <?php if (is_active_sidebar('footer-content')) : ?>
+                    <?php dynamic_sidebar('footer-content'); ?>
+                <?php endif; ?>
 
-</main>
+            </div>
 
+        </content>
 
-<?php get_footer(); ?>
+    </main>
+
+    <?php get_footer(); ?>
