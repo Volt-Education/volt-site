@@ -1,3 +1,9 @@
+﻿.sticky {
+  position: sticky;
+  top: 0;
+  min-height: 2em;
+}
+
 .lineStyle{
 	size: 2px;
 	color: #f7f7f7;
@@ -19,6 +25,7 @@
 	font-color: #ffffff;
 }
 
+
 .nav-link {
 	color: #000000;
 }
@@ -28,7 +35,7 @@
 }
 
 .fade {
-  opacity: 0;
+  opacity: 0.5;
 }
  
 .fade:hover {
@@ -211,5 +218,106 @@
 	color: grey;
 }
 .fa-google:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-at::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-at:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-skype::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-skype:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-telegram-plane::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-telegram-plane:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-phone-volume::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-phone-volume:hover::before {
+	color: #ffcc00; 
+}
+
+
+.fa-viber1::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-viber1:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-instagram2::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-instagram2:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-vk2::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-vk2:hover::before {
+	color: #ffcc00; 
+}
+
+.fa-facebook2-f::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.fa-facebook2-f:hover::before {
+	color: #ffcc00; 
+}
+
+
+.mystyleIcons::before {
+	content: '';
+	font-size: 32px;
+	background: #ffffff;
+	transition: 0.5s;
+	color: grey;
+}
+.mystyleIcons:hover::before {
 	color: #ffcc00; 
 }

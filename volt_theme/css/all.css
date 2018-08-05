@@ -1258,6 +1258,9 @@ readers do not read off random characters that represent icons */
  .fa-facebook1-f:before {
   content: "\f39e"; } 
 
+ .fa-facebook2-f:before {
+  content: "\f39e"; } 
+
 .fa-facebook-messenger:before {
   content: "\f39f"; }
 
@@ -1862,6 +1865,9 @@ readers do not read off random characters that represent icons */
   content: "\f16d"; }
 
 .fa-instagram1:before {
+  content: "\f16d"; }
+
+.fa-instagram2:before {
   content: "\f16d"; }
 
 .fa-internet-explorer:before {
@@ -3463,6 +3469,9 @@ readers do not read off random characters that represent icons */
 .fa-viber:before {
   content: "\f409"; }
 
+.fa-viber1:before {
+  content: "\f409"; }
+
 .fa-video:before {
   content: "\f03d"; }
 
@@ -3483,7 +3492,11 @@ readers do not read off random characters that represent icons */
 
 .fa-vk:before {
   content: "\f189"; }
+
 .fa-vk1:before {
+  content: "\f189"; }
+
+.fa-vk2:before {
   content: "\f189"; }
 
 .fa-vnv:before {
@@ -3686,3 +3699,5 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+

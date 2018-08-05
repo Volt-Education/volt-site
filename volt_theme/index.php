@@ -1,10 +1,8 @@
         <?php get_header(); ?>
 
-
-    <main>
-
         <!--CONTENT-->
         <content>
+        	<div class="container">
                 <?php if (is_active_sidebar('header-content')) : ?>
                     <?php dynamic_sidebar('header-content'); ?>
                 <?php endif; ?>
@@ -53,7 +51,5 @@
             </div>
 
         </content>
-
-    </main>
 
     <?php get_footer(); ?>

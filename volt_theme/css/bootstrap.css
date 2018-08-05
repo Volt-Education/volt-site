@@ -2940,7 +2940,7 @@ input[type="button"].btn-block {
 }
 
 .fade:not(.show) {
-  opacity: 0;
+  opacity: 0.6;
 }
 
 .collapse:not(.show) {
@@ -5425,7 +5425,7 @@ button.close {
 }
 
 .modal-backdrop.fade {
-  opacity: 0;
+  opacity: 0.6;
 }
 
 .modal-backdrop.show {

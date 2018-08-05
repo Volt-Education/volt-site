@@ -66,7 +66,7 @@
 		<h6 class="text-muted"><i class="mb-0">powered by VOLT EDUCATION © | 2018 </i></h6>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
+	<script src="http://localhost/wordpress//wp-content/themes/volt_theme/js/bootstrap.min.js"></script>
 </footer>  
 </div>
 <?php wp_footer(); ?>

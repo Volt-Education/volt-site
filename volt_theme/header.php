@@ -12,13 +12,13 @@
 	<?php wp_head(); ?>
 
 
-    <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="http://localhost/wordpress//wp-content/themes/volt_theme/img/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/style.css">
-	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/all.css" >
+    <link rel="stylesheet" href="http://localhost/wordpress//wp-content/themes/volt_theme/css/bootstrap.css">
+    <link rel="stylesheet" href="http://localhost/wordpress//wp-content/themes/volt_theme/style.css">
+	<link rel="stylesheet" href="http://localhost/wordpress//wp-content/themes/volt_theme/css/all.css" >
 
 	<script type="text/javascript">
 	function wp_attempt_focus(){
@@ -93,20 +93,20 @@
 					?>
 
 					<!-- Modal -->
-					<div class="modal fade" id="enter" tabindex="-1" role="dialog" aria-labelledby="enterLabel" aria-hidden="false">
+					<div class="modal" id="enter" tabindex="-1" role="dialog" aria-labelledby="enterLabel" aria-hidden="false">
 					  <div class="modal-dialog modal-dialog-centered" role="document" >
 					    <div class="modal-content">
 					      <div class="modal-header">
-					      	<img class="modal-title" src="<?php bloginfo('template_directory') ?>/img/logo_reg.png" alt="logo">
+					      	<img class="modal-title" src="http://localhost/wordpress//wp-content/themes/volt_theme/img/logo_reg.png" alt="logo">
 					      </div>
 
 					      <div class="modal-body">	
 							<ul class="nav nav-pills mb-3"  id="pills-tab" role="tablist">
 							  <li class="nav-item">
-							    <a class="nav-link active" id="pills-enter-tab" data-toggle="pill" href="#pills-enter" role="tab" aria-controls="pills-enter" aria-selected="true">ВХОД </a>
+							    <a type="button" class="btn btn-warning" id="pills-enter-tab" data-toggle="pill" href="#pills-enter" role="tab" aria-controls="pills-enter" aria-selected="true">ВХОД </a> &nbsp &nbsp
 							  </li>
 							  <li class="nav-item">
-							    <a class="nav-link" id="pills-regist-tab" data-toggle="pill" href="#pills-regist" role="tab" aria-controls="pills-regist" aria-selected="false"> РЕГИСТРАЦИЯ </a>
+							    <a type="button" class="btn btn-warning" id="pills-regist-tab" data-toggle="pill" href="#pills-regist" role="tab" aria-controls="pills-regist" aria-selected="false"> РЕГИСТРАЦИЯ </a>
 							  </li>
 							</ul>
 							<div class="tab-content" id="pills-tabContent">
@@ -197,7 +197,7 @@
 		<hr class="lineStyle" align="middle"></hr>
 
 		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand" href="http://localhost/wordpress/about_us/about_company/"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" align="top"> </a>
+		  <a class="navbar-brand" href="http://localhost/wordpress/about_us/about_company/"><img src="http://localhost/wordpress//wp-content/themes/volt_theme/img/logo.png" align="top"> </a>
 	 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	   		 <span class="navbar-toggler-icon"></span>
 	 		 </button>
@@ -259,5 +259,4 @@
 		</nav>
 		<hr class="lineStyle" align="middle"/>
 	</div>
-
 </header>
