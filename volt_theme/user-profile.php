@@ -68,7 +68,51 @@ if( !$user_ID ) {
 		<div class="col-12 col-md-6">
 		<div class="collapse" id="user_data_inf">
 		  <div class="card card-body">
-			<p><h5>Немного позже здесь будет размещена информация о Вашем профиле</h5></p>
+			<p>
+				<div class="row">
+					<?php
+						$current_user = wp_get_current_user();
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">Ваш логин: </h5> 
+							  </div>
+							  <div class="col-12 col-lg-8" align="left">
+							  		<h5>' . $current_user->user_login . '</h5>
+							  </div>';
+
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">E-mail адрес:</h5> 
+							  </div>
+							  <div class="col-12 col-lg-8" align="left">
+							  		<h5>' . $current_user->user_email . '</h5>
+							  </div>';
+
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">Имя: </h5>
+							  </div>
+							  <div class="col-12 col-lg-8" align="left">
+									<h5>' . $current_user->user_firstname . '</h5>
+						      </div>';
+
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">Фамилия: </h5>
+					          </div><div class="col-12 col-lg-8" align="left">
+									<h5>' . $current_user->user_lastname . '</h5>
+							  </div>';
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">Для всех Вы: </h5>
+						      </div><div class="col-12 col-lg-8" align="left">
+									<h5>' . $current_user->display_name . '</h5>
+						      </div>';
+
+						echo '<div class="col-12 col-lg-4" align="left">
+									<h5 class="text-muted">Ваш ID: </h5>
+						      </div>
+						      <div class="col-12 col-lg-8" align="left">
+									<h5>' . $current_user->ID . '</h5>
+						      </div>';
+					?>
+				</div>
+			</p>
 		  </div>
 		</div>
 	</div>
